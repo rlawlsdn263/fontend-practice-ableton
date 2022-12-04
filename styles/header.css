@@ -1,0 +1,60 @@
+@import url(./global.css);
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--main-color);
+  font-weight: 700;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 12px 36px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.navbar-items, .member-menu-items {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar-items:last-child a {
+  color: var(--red);
+}
+
+.member-menu {
+  position: absolute;
+  right: 36px;
+}
+
+.member-menu-items:first-child a {
+  color: var(--blue);
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  background-color: var(--side-color);
+}
+
+.secondary {
+  padding: 24px 36px;
+}
+
+.secondary-items {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.secondary-items:first-child {
+  margin-left: 0;
+}
+
+.secondary-items:first-child a {
+  color: var(--red);
+}

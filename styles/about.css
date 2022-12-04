@@ -1,0 +1,28 @@
+@import url(./global.css);
+
+.about {
+  background-color: var(--main-color);
+}
+
+.background-img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.page-about-text {
+  padding: 200px 400px;
+}
+
+.page-desc {
+  margin-bottom: 20px;
+}
+
+.page-subtext {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.bold {
+  color: var(--blue);
+}
